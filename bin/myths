@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+require 'myths'
+
+if not (template_file = ARGV.shift)
+  puts 'Usage: myths [template file] [presentation file]'
+  exit 1
+end
+puts Myths.transform(ARGF, File.read(template_file))

@@ -1,0 +1,128 @@
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	background: white;
+}
+
+article.presentation {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	font-size: 36px;
+	font-family: 'Open Sans', Arial, sans-serif;
+	text-shadow: lightgrey 0 1px 2px;
+	color: #333;
+}
+
+section.slide {
+	padding: 40px;
+}
+
+h1, h2, h3 {
+	color: black;
+	margin-bottom: 32px;
+}
+
+h1 {
+	font-size: 60px;
+}
+
+h2 {
+	font-size: 45px;
+}
+
+h3 {
+	font-size: 30px;
+}
+
+p, li {
+	margin-bottom: 16px;
+}
+
+ul {
+	list-style: none;
+}
+
+ol {
+	list-style-type: decimal;
+	list-style-position: inside;
+}
+
+.presentation ul li {
+	position: relative;
+	margin-left: 1em;
+}
+
+.presentation ul li:before {
+	position: absolute;
+	content: "\00B7";
+	left: -.75em;
+}
+
+strong {
+	font-weight: bold;
+}
+
+em {
+	font-style: italic;
+}
+
+code {
+	padding-left: 4px;
+	padding-right: 4px;
+	font-family: monospace;
+	background: lavender;
+}
+
+div#options {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 0;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: white;
+	background: darkslategrey;
+}
+
+#options ul {
+	padding: 0;
+	margin: 0;
+}
+
+#options li {
+	display: inline-block;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#options a {
+	display: block;
+	margin: 0;
+	padding: 10px 15px 10px 15px;
+}
+
+#options a:hover {
+	background: darkseagreen;
+}
+
+#options a:link, #options a:visited, #options a:hover {
+	text-decoration: none;
+	color: white;
+}
+
+#close-menu {
+	position: absolute;
+	top: 0;
+	right: 0;
+}

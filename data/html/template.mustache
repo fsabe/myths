@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="http://yui.yahooapis.com/3.4.1/build/yui/yui-min.js"></script>
+		<script src="static/presentation.js"></script>
+		<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.4.1/build/cssreset/cssreset-min.css">
+		<link rel="stylesheet" href="static/presentation.css" type="text/css">
+	</head>
+	<body>
+		<article class='presentation'>
+			{{#pages}}
+			<section class='page'>
+				{{#slide}}
+				<section class='slide'>
+					{{{slide}}}
+				</section>
+				{{/slide}}
+				{{#notes}}
+				<section class='notes'>
+					{{{notes}}}
+				</section>
+				{{/notes}}
+			</section>
+			{{/pages}}
+		</article>
+		<div id='options'>
+			<ul>
+				<li><a href='#' id='open-notes'>Open notes window</a></li>
+			</ul>
+			<a href='#' id='close-menu'>X</a>
+		</div>
+	</body>
+</html>

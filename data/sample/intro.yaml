@@ -1,0 +1,36 @@
+---
+pages:
+    - slide: |
+        # Hello, World!
+        This file demonstrates how this tool can be used to create a slide
+        presentation.
+        
+        ## Controls
+        - `<Space>`, `<Right>`, `<Down>` or `n` to go forward
+        - `<Left>`, `<Up>` or `p` to go back
+        - `q` to open the options menu
+      notes: |
+        Notes can be used to assist you in giving the presentation.
+
+    - slide: |
+        # About
+        This tool is written in **Ruby** using **RDiscount**'s implementation
+        of **Markdown**.
+        The slides are generated from a **Mustache** template.
+
+        The next slide will introduce some formatting.
+      notes: |
+        Notes are optional. The next slide has no notes.
+
+    - slide: |
+        # Formatting
+        ## Lists
+        This is a simple *unordered* list:
+        
+        - one item;
+        - another item;
+        
+        One can also create *ordered* lists:
+        
+        1. first item;
+        1. second item.
