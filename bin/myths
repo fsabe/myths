@@ -1,6 +1,11 @@
 #!/usr/bin/env ruby
 require 'myths'
 
+if ARGV.include?('--version')
+  puts 'Myths %s' % Myths::VERSION
+  exit 0
+end
+
 if not (template_file = ARGV.shift)
   puts 'Usage: myths [template file] [presentation file]'
   exit 1
