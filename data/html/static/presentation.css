@@ -22,7 +22,7 @@ article.presentation {
 	color: #333;
 }
 
-section.slide {
+section.slide, section.notes {
 	padding: 40px;
 }
 
