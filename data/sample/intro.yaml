@@ -18,7 +18,7 @@ pages:
         of **Markdown**.
         The slides are generated from a **Mustache** template.
 
-        The next slide will introduce some formatting.
+        The next few slides will introduce some formatting.
       notes: |
         Notes are optional. The next slide has no notes.
 
@@ -46,3 +46,21 @@ pages:
         Mannor of thy friends or of thine owne were; any mans death diminishes
         me, because I am involved in Mankinde; And therefore never send to
         know for whom the bell tolls; It tolls for thee.
+
+    - slide: |
+        ## Code blocks
+        Here is some source code written in Haskell.
+        It shows how a code block is formatted.
+
+            isPrime :: Integer -> Bool
+            isPrime x
+                | x < 2 = False
+                | otherwise = and
+                    $ map ((/=) 0 . mod x)
+                    $ takeWhile ((floor $ sqrt $ fromInteger x) >=) primes
+
+            primes :: [Integer]
+            primes = 2 : filter isPrime [3,5..]
+      notes: |
+        If you want to learn Haskell, I suggest reading
+        [Learn You a Haskell for Great Good!](http://learnyouahaskell.com/)

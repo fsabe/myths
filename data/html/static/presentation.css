@@ -82,12 +82,17 @@ code {
 	background: lavender;
 }
 
-blockquote {
+blockquote, pre {
 	border-left: 15px solid lightgray;
 	padding: 15px;
 	margin: 1em;
 	background: lavender;
 	font-size: 30px;
+}
+
+pre code {
+	padding: 0;
+	background: none;
 }
 
 div#options {
