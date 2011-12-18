@@ -34,3 +34,15 @@ pages:
         
         1. first item;
         1. second item.
+
+    - slide: |
+        ## Blockquotes
+        This is a famous passage by the English writer John Donne.
+        It illustrates the use of blockquote.
+
+        > No man is an Iland, intire of it selfe; every man is a peece of the
+        Continent, a part of the maine; if a Clod bee washed away by the Sea,
+        Europe is the lesse, as well as if a Promontorie were, as well as if a
+        Mannor of thy friends or of thine owne were; any mans death diminishes
+        me, because I am involved in Mankinde; And therefore never send to
+        know for whom the bell tolls; It tolls for thee.
